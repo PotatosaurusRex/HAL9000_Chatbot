@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Roboto+Condensed&family=Share+Tech+Mono&display=swap');
+
+
+body {
+    background-color: black;
+    color: #ff0000;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.hal {
+    width: 50%;
+    
+}
+
+.content {
+    display: flex;
+}
+
+.both {
+    display: table-column;
+}
+
+.me {
+    color: white;
+}
+
+#userInput {
+    width: 90%;
+    background-color: #201f1f;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#chatForm {
+    margin: 8px 10px;
+    color: white;
+}
+
+.submit {
+    background-color: #404040; 
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#chatInput {
+    margin: 10px 0px;
+}
+#chatOutput {
+    margin: 10px 0px;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 20px;
+}
